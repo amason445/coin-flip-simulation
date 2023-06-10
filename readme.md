@@ -1,6 +1,6 @@
 # Coin Flip Simulation
 ## Summary
-I wrote a simple script that simulates a fair coin being fliped and compared the expected success rate to the realized success rate. The experiments were packaged into bytearrays containing the trial outcomes.
+I wrote a simple script that simulates a fair coin being fliped and compared the expected success rate to the realized success rate. I was interested in packaging the trial outcomes from experiment into bytearrays and I provided a final visualization to validate the expected limiting behavior of the simulation as the number of trials increases.
 
 ## Methodolgy
 - Each experiment follows a binomial distribution since a coin toss can be measured as a discrete outcome. Additionally, each coin toss is independent from one another and generated from a uniform distribution. Tosses above the success rate are considered a success.
