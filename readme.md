@@ -17,7 +17,7 @@ $\mu = {Number of Trials}\cdot {Theoretical Success Rate}$
 ${Realized Success Rate} = \frac{Success Rate}{Number of Trials}$
 
 ### Distance from Theoretical Success Rate and Realized Success Rate
-$\Delta = \vert{\mu - Realized Success Rate}$
+$\Delta = \vert{\mu - Realized Success Rate}\vert$
 
 ## Output
 ![alt text](output_plot.png)
