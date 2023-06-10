@@ -10,7 +10,7 @@ I wrote a simple script that simulates a fair coin being fliped and compared the
 
 ## Formulas
 
-### Mean of Binomial Distribution
+### Mean of the Binomial Distribution
 $\mu = {Number of Trials}\cdot {Theoretical Success Rate}$
 
 ### Realized Success Rate
