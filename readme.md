@@ -3,7 +3,7 @@
 I wrote a simple script that simulates a fair coin being fliped and compared the expected success rate to the realized success rate. I was interested in packaging the trial outcomes from experiment into bytearrays and I provided a final visualization to validate the expected limiting behavior of the simulation as the number of trials increases.
 
 ## Methodolgy
-- Each experiment follows a binomial distribution since a coin toss can be measured as a discrete outcome. Additionally, each coin toss is independent from one another and generated from a uniform distribution. Tosses above the success rate are considered a success.
+- Each experiment follows a binomial distribution since a coin toss can be measured as a discrete outcome. Additionally, each coin toss is independent from one another and generated from a uniform distribution. Outcomes above the theoretical success rate are considered a success.
 - I encoded each sequence of trial outcomes into bytearray objects and then counted the success rate for each experiment.
 - Since the expected number of successes is equal to the number of trials multiplied by the theoretical success rate, the realized success rate is therefore equal to the number of observed success divided by the total number of trials.
 - Once this was completed, I packaged this information into the below visualization.
