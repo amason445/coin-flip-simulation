@@ -4,7 +4,7 @@ I wrote a simple script that simulates a fair coin being fliped and compared the
 
 ## Methodolgy
 - I encoded each sequence trial outcomes into bytearray objects and then counted the success rate for each expirement.
-- Since the expected number of successes is equal to the number of trials multiplied by the theoretical success rate, the realized success rate is therefore equal to the number of observeed success divided by the total number of trials.
+- Since the expected number of successes is equal to the number of trials multiplied by the theoretical success rate, the realized success rate is therefore equal to the number of observed success divided by the total number of trials.
 - Once this was completed, I packaged this information into the below visualization.
 
 ## Formulas
