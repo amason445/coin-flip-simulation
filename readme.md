@@ -10,13 +10,13 @@ I wrote a simple script that simulates a fair coin being fliped and compared the
 
 ## Formulas
 * **Mean of Binomial Distribution**
-  - $$\mu = {Number\ of\ Trials}\cdot {Theoretical\ Success\ Rate}$$
+  - $\mu = {Number\ of\ Trials}\cdot {Theoretical\ Success\ Rate}$
 
 * **Realized Success Rate**
-  - $${Realized\ Success\ Rate} = \frac{Number\  of\ Successes}{Number\ of\ Trials}$$
+  - ${Realized\ Success\ Rate} = \frac{Number\  of\ Successes}{Number\ of\ Trials}$
 
 * **Distance between Theoretical and Realized Success Rate**
-  - $$\Delta = \vert{\mu - Realized\ Success\ Rate}\vert$$
+  - $\Delta = \vert{\mu - Realized\ Success\ Rate}\vert$
 
 ## Output
 ![alt text](output_plot.png)
