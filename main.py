@@ -12,9 +12,9 @@ for i in range(0, len(trials)):
 #generate outcome
 plt.scatter(*zip(*outcome_list))
 plt.suptitle('Coin Flip Simlation Scatter Plot')
-plt.title('Distance from Expected Probability and Realized Success Rate')
+plt.title('Realized Distance from Expected Success Rate in Percent')
 plt.xlabel('Number of Sequential Coin Flips')
-plt.ylabel('Distance from Expected Success Rate in Percent')
+plt.ylabel('Delta as a Percentage')
 plt.savefig('output_plot.png')
 
 
