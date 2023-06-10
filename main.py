@@ -10,7 +10,7 @@ for i in range(0, len(trials)):
     outcome_list.append(coin_flips.trial_sequence(trials[i], success_rate))
 
 #generate outcome plot
-plt.scatter(*zip(*outcome_list))
+plt.plot(*zip(*outcome_list))
 plt.suptitle('Coin Flip Simlation Scatter Plot')
 plt.title('Realized Distance from Expected Success Rate')
 plt.xlabel('Number of Trials')
