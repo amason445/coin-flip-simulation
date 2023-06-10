@@ -3,8 +3,7 @@
 I wrote a simple script that simulates a fair coin being fliped and compared the expected success rate to the realized success rate. The expirements were packaged into bytearrays containing the trial outcomes.
 
 ## Methodolgy
-- I encoded the flips into byte objects and then counted the success rate each expirement.
-- An expirement is a sequence of flips that contains a number of trial flips.
+- I encoded each sequence trial outcomes into bytearray objects and then counted the success rate for each expirement.
 - Since the expected number of success is equal to the trials multiplied by the theoretical success rate, the realized success rate is equal to the number of success divided by the number of trials
 - Once this was completed, I packaged this information into the below visualization
 
