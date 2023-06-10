@@ -14,6 +14,6 @@ plt.suptitle('Coin Flip Simlation Scatter Plot')
 plt.title('Distance from Expected Probability and Realized Success Rate')
 plt.xlabel('Number of Sequential Coin Flips')
 plt.ylabel('Distance from Expected Success Rate in Percent')
-plt.savefig('out_plot.png')
+plt.savefig('output_plot.png')
 
 
