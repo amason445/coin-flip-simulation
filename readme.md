@@ -9,15 +9,9 @@ I wrote a simple script that simulates a fair coin being fliped and compared the
 - Once this was completed, I packaged this information into the below visualization
 
 ## Formulas
-
-### Mean of the Binomial Distribution
-$$\mu = {Number\ of\ Trials}\cdot {Theoretical\ Success\ Rate}$$
-
-### Realized Success Rate
-$${Realized\ Success\ Rate} = \frac{Success\ Rate}{Number\ of\ Trials}$$
-
-### Distance from Theoretical Success Rate and Realized Success Rate
-$$\Delta = \vert{\mu - Realized\ Success\ Rate}\vert$$
+$${Mean\ of\ the\ Binomial\ Distribution:\ }\mu = {Number\ of\ Trials}\cdot {Theoretical\ Success\ Rate}$$
+$${Realized\ Success\ Rate:\ }{Realized\ Success\ Rate} = \frac{Success\ Rate}{Number\ of\ Trials}$$
+$${Distance\ between\ Theoretical\ and Realized\ Success\ Rate:\ }\Delta = \vert{\mu - Realized\ Success\ Rate}\vert$$
 
 ## Output
 ![alt text](output_plot.png)
