@@ -2,6 +2,8 @@
 ## Summary
 I wrote a simple script that simulates a fair coin being fliped and compared the expected success rate to the realized success rate. I was interested in packaging the trial outcomes from experiment into bytearrays and I provided a final visualization to validate the expected limiting behavior of the simulation as the number of trials increases.
 
+6/13/2023: I added an additional simulation that was requested by a friend. The ask was to plot a histogram which would count the coin flips in a sequence of 100 expirements consisting of 20 coin flips. This required some minor refactoring and some mapping and filtering on the outcomes. The outcome appears close to a normal distribution.
+
 ## Methodolgy
 - Each experiment follows a binomial distribution since a coin toss can be measured as a discrete outcome. Additionally, each coin toss is independent from one another and generated from a uniform distribution. Outcomes above the theoretical success rate are considered a success.
 - I encoded each sequence of trial outcomes into bytearray objects and then counted the success rate for each experiment.
@@ -19,4 +21,7 @@ I wrote a simple script that simulates a fair coin being fliped and compared the
   - $\Delta = \vert{\mu - Realized\ Success\ Rate}\vert$
 
 ## Output
-![alt text](output_plot.png)
+### Simulation 1
+![alt text](simulation1_plot.png)
+### Simulation 2
+![alt text](simulation2_plot.png)
