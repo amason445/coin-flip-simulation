@@ -15,5 +15,4 @@ def trial_sequence(n_trials, success_rate):
         outcome = flip(success_rate)
         sequence.append(outcome)
     success_count = sequence.count(1)
-    failure_count = sequence.count(0)
-    return (n_trials, abs(success_rate - (success_count / n_trials)) * 100)
+    return (n_trials, success_count)
