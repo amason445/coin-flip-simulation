@@ -13,6 +13,7 @@ def main():
             trial_outcome = coin_flips.trial_sequence(trials[j], success_rate)
             outcome_list.append(trial_outcome)
 
+    #filter function to isolate final head count from simulation
     outcome_filter = lambda x: True if x[0] == 20 else False
     outcome_list = list(filter(outcome_filter, outcome_list))
 
